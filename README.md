@@ -1,4 +1,4 @@
-# MBIMC-GAE
+# Inductive Multi-behavior Recommendation with Graph Convolutional Networks
 
 ## Requirements
 
