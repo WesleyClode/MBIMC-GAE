@@ -1,0 +1,94 @@
+Total Param Number: 17580
+Params:
+	encoder.0.att: torch.Size([4, 4]), 16
+	encoder.0.basis: torch.Size([4, 257, 10]), 10280
+	encoder.0.ufc.weight: torch.Size([30, 30]), 900
+	encoder.0.ufc.bias: torch.Size([30]), 30
+	encoder.1.att: torch.Size([4, 4]), 16
+	encoder.1.basis: torch.Size([4, 30, 30]), 3600
+	encoder.1.ufc.weight: torch.Size([30, 30]), 900
+	encoder.1.ufc.bias: torch.Size([30]), 30
+	decoder.Ps.0: torch.Size([30, 30]), 900
+	decoder.Ps.1: torch.Size([30, 30]), 900
+	decoder.combine_basis.weight: torch.Size([4, 2]), 8
+Net(
+  (_act): Tanh()
+  (encoder): ModuleList(
+    (0): GCMCLayer(
+      (ufc): Linear(in_features=30, out_features=30, bias=True)
+      (ifc): Linear(in_features=30, out_features=30, bias=True)
+      (dropout): Dropout(p=0.7, inplace=False)
+      (conv): HeteroGraphConv(
+        (mods): ModuleDict(
+          (1): GCMCGraphConv(
+            (dropout): Dropout(p=0.7, inplace=False)
+          )
+          (2): GCMCGraphConv(
+            (dropout): Dropout(p=0.7, inplace=False)
+          )
+          (3): GCMCGraphConv(
+            (dropout): Dropout(p=0.7, inplace=False)
+          )
+          (4): GCMCGraphConv(
+            (dropout): Dropout(p=0.7, inplace=False)
+          )
+          (rev-1): GCMCGraphConv(
+            (dropout): Dropout(p=0.7, inplace=False)
+          )
+          (rev-2): GCMCGraphConv(
+            (dropout): Dropout(p=0.7, inplace=False)
+          )
+          (rev-3): GCMCGraphConv(
+            (dropout): Dropout(p=0.7, inplace=False)
+          )
+          (rev-4): GCMCGraphConv(
+            (dropout): Dropout(p=0.7, inplace=False)
+          )
+        )
+      )
+      (agg_act): Tanh()
+    )
+    (1): GCMCLayer(
+      (ufc): Linear(in_features=30, out_features=30, bias=True)
+      (ifc): Linear(in_features=30, out_features=30, bias=True)
+      (dropout): Dropout(p=0.6, inplace=False)
+      (conv): HeteroGraphConv(
+        (mods): ModuleDict(
+          (1): GCMCGraphConv(
+            (dropout): Dropout(p=0.6, inplace=False)
+          )
+          (2): GCMCGraphConv(
+            (dropout): Dropout(p=0.6, inplace=False)
+          )
+          (3): GCMCGraphConv(
+            (dropout): Dropout(p=0.6, inplace=False)
+          )
+          (4): GCMCGraphConv(
+            (dropout): Dropout(p=0.6, inplace=False)
+          )
+          (rev-1): GCMCGraphConv(
+            (dropout): Dropout(p=0.6, inplace=False)
+          )
+          (rev-2): GCMCGraphConv(
+            (dropout): Dropout(p=0.6, inplace=False)
+          )
+          (rev-3): GCMCGraphConv(
+            (dropout): Dropout(p=0.6, inplace=False)
+          )
+          (rev-4): GCMCGraphConv(
+            (dropout): Dropout(p=0.6, inplace=False)
+          )
+        )
+      )
+      (agg_act): Tanh()
+    )
+  )
+  (decoder): BiDecoder(
+    (dropout): Dropout(p=0.0, inplace=False)
+    (Ps): ParameterList(
+        (0): Parameter containing: [torch.cuda.FloatTensor of size 30x30 (GPU 0)]
+        (1): Parameter containing: [torch.cuda.FloatTensor of size 30x30 (GPU 0)]
+    )
+    (combine_basis): Linear(in_features=2, out_features=4, bias=False)
+  )
+)
