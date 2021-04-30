@@ -1,0 +1,22 @@
+INFO:root:Use Multiprocess to Evaluate: no
+INFO:root:--- Start training ---
+INFO:root:Epoch 1 [4.2s + 104.5s]: train_loss = 0.3362  [114.1s] HR = 0.1789, NDCG = 0.0503
+INFO:root:Epoch 2 [4.5s + 105.0s]: train_loss = 0.3207  [119.7s] HR = 0.1876, NDCG = 0.0479
+INFO:root:Epoch 3 [4.1s + 119.9s]: train_loss = 0.3139  [126.5s] HR = 0.1983, NDCG = 0.0507
+INFO:root:Epoch 4 [5.4s + 122.0s]: train_loss = 0.3088  [125.5s] HR = 0.2028, NDCG = 0.0533
+INFO:root:Epoch 5 [4.5s + 121.8s]: train_loss = 0.3031  [124.8s] HR = 0.2170, NDCG = 0.0547
+INFO:root:Epoch 6 [5.2s + 122.6s]: train_loss = 0.2971  [112.7s] HR = 0.2145, NDCG = 0.0539
+INFO:root:Epoch 7 [4.5s + 122.5s]: train_loss = 0.2922  [119.9s] HR = 0.2196, NDCG = 0.0565
+INFO:root:Epoch 8 [4.4s + 122.4s]: train_loss = 0.2875  [126.6s] HR = 0.2229, NDCG = 0.0526
+INFO:root:Epoch 9 [4.6s + 122.5s]: train_loss = 0.2836  [127.4s] HR = 0.2121, NDCG = 0.0538
+INFO:root:Epoch 10 [4.7s + 122.3s]: train_loss = 0.2797  [118.7s] HR = 0.2199, NDCG = 0.0529
+INFO:root:Epoch 11 [5.7s + 122.7s]: train_loss = 0.2752  [114.3s] HR = 0.2145, NDCG = 0.0541
+INFO:root:Epoch 12 [4.6s + 122.9s]: train_loss = 0.2716  [125.2s] HR = 0.2279, NDCG = 0.0530
+INFO:root:Epoch 13 [4.3s + 122.1s]: train_loss = 0.2680  [127.4s] HR = 0.2196, NDCG = 0.0541
+INFO:root:Epoch 14 [4.5s + 122.1s]: train_loss = 0.2642  [129.5s] HR = 0.2273, NDCG = 0.0561
+INFO:root:Epoch 15 [5.0s + 122.7s]: train_loss = 0.2608  [116.3s] HR = 0.2243, NDCG = 0.0542
+INFO:root:Epoch 16 [5.3s + 122.9s]: train_loss = 0.2578  [120.0s] HR = 0.2255, NDCG = 0.0563
+INFO:root:Epoch 17 [4.3s + 124.3s]: train_loss = 0.2543  [120.5s] HR = 0.2266, NDCG = 0.0583
+INFO:root:Epoch 18 [5.3s + 121.8s]: train_loss = 0.2507  [121.2s] HR = 0.2284, NDCG = 0.0564
+INFO:root:Epoch 19 [4.8s + 122.3s]: train_loss = 0.2473  [118.1s] HR = 0.2322, NDCG = 0.0568
+INFO:root:Epoch 20 [4.8s + 121.6s]: train_loss = 0.2443  [123.7s] HR = 0.2254, NDCG = 0.0558

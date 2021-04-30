@@ -1,0 +1,17 @@
+INFO:root:Use Multiprocess to Evaluate: no
+INFO:root:--- Start training ---
+INFO:root:Epoch 1 [100.8s + 141.5s]: train_loss = 0.2234  [258.5s] HR = 0.0225, NDCG = 0.0149
+INFO:root:Epoch 2 [104.2s + 140.9s]: train_loss = 0.2086  [263.4s] HR = 0.0214, NDCG = 0.0153
+INFO:root:Epoch 3 [108.2s + 141.0s]: train_loss = 0.2040  [261.0s] HR = 0.0219, NDCG = 0.0150
+INFO:root:Epoch 4 [104.7s + 139.8s]: train_loss = 0.2015  [263.4s] HR = 0.0221, NDCG = 0.0152
+INFO:root:Epoch 5 [93.7s + 141.7s]: train_loss = 0.1995  [264.0s] HR = 0.0230, NDCG = 0.0157
+INFO:root:Epoch 6 [126.2s + 140.3s]: train_loss = 0.1978  [256.4s] HR = 0.0239, NDCG = 0.0161
+INFO:root:Use Multiprocess to Evaluate: no
+INFO:root:--- Start training ---
+INFO:root:Use Multiprocess to Evaluate: no
+INFO:root:--- Start training ---
+INFO:root:Use Multiprocess to Evaluate: no
+INFO:root:--- Start training ---
+INFO:root:Use Multiprocess to Evaluate: no
+INFO:root:--- Start training ---
+INFO:root:Epoch 1 [82.3s + 144.2s]: train_loss = 0.2232  [518.8s] HR = 0.1520, NDCG = 0.0376
